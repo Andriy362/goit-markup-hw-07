@@ -84,6 +84,7 @@ img {
 
 
 .page-header__list {
+    
     display: flex;
     align-items: center;
 }
@@ -452,6 +453,52 @@ background: rgba(255, 255, 255, 0.1);
 .social__svg {
     fill: currentColor;
 }
+/* -----------------------SELECTION---------------FIFE------------- */
+
+
+.section-fife {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.card-nav {
+    display: flex;
+
+}
+
+.card-nav__item+.card-nav__item {
+    margin-left: 30px;
+}
+
+
+.card-nav__icon {
+    transition: color 250ms var(--timing-function),
+        border-color 250ms var(--timing-function);
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    color: #afb1b8;
+
+}
+
+.card-nav__icon:hover,
+.card-nav__icon:focus {
+    transition: color 250ms var(--timing-function),
+        border-color 250ms var(--timing-function);
+
+    color: var(--first-btn-color);
+    border-color: var(--first-btn-color);
+}
+
+.card-nav__svg {
+    fill: currentColor;
+}
+
 /* ----------------------------------------FOOTER------------------------------------- */
 
 .page-footer {
@@ -899,51 +946,6 @@ textarea {
 }
 
 
-/* -----------------------SELECTION---------------FIFE------------- */
-
-
-.section-fife {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.card-nav {
-    display: flex;
-
-}
-
-.card-nav__item+.card-nav__item {
-    margin-left: 30px;
-}
-
-
-.card-nav__icon {
-    transition: color 250ms var(--timing-function),
-        border-color 250ms var(--timing-function);
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    align-items: center;
-    cursor: pointer;
-    justify-content: center;
-    display: flex;
-    color: #afb1b8;
-
-}
-
-.card-nav__icon:hover,
-.card-nav__icon:focus {
-    transition: color 250ms var(--timing-function),
-        border-color 250ms var(--timing-function);
-
-    color: var(--first-btn-color);
-    border-color: var(--first-btn-color);
-}
-
-.card-nav__svg {
-    fill: currentColor;
-}
 
 
 
