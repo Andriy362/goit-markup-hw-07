@@ -267,6 +267,10 @@ a {
   width: 270px;
 }
 
+.hero-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .hero-list__name {
   margin-top: 0px;
   margin-bottom: 10px;
