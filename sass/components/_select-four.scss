@@ -14,10 +14,7 @@
 @extend %position;
 }
 
-.card-list__item:not(:last-child) {
-    margin-right: 30px;
 
-}
 
 .card-list__item {
 
@@ -28,6 +25,10 @@
     width: 270px;
     height: 428px;
     background-color: var(--second-btn-color);
+    &:not(:last-child) {
+        margin-right: 30px;
+    
+    }
 }
 
 .card-list__position {
